@@ -2,6 +2,7 @@
   <div id="app">
     <p>{{ msg }}</p>
     <counter></counter>
+    <counter2></counter2>
     <results></results>
     <results2></results2>
   </div>
@@ -11,6 +12,7 @@
 import Results from './components/results.vue';
 import Results2 from './components/result2.vue';
 import Counter from './components/counter.vue';
+import Counter2 from './components/counter2.vue';
 
 export default {
   name: 'app',
@@ -21,6 +23,7 @@ export default {
   },
   components: {
     Counter,
+    Counter2,
     Results,
     Results2
   }
